@@ -1,13 +1,12 @@
 .navbar {
-    min-height: 100px;
-    align-items: center;
-    justify-content: space-between;
     background-color: #FFF7E0;
-  }
+}
+
 .logo {
     max-width: 150px;
     margin-left: 20px;
 }
+
 .container-fluid a {
     color: #CB3441;
     font-size: 22px;
@@ -22,26 +21,8 @@
     text-align: center;
     font-weight: bold;
     display: inline-block;
-    animation: zoom 4s ease-in-out infinite 5s
+    animation: zoom 1s ease-in-out infinite 5s;
 }
-
-@keyframes seccion {
-    from {
-        transform: translateX(-100% vh);
-    }
-    to {
-        transform: translateX(100%);
-    }
-}
-.seccion {
-    font-size: 20px;
-    color: #589f7e;
-    font-weight: bolder;
-    white-space: wrap;
-    overflow: hidden;
-    animation: seccion 10s linear infinite 0s;
-}
-
 @keyframes zoom {
     0% {
         transform: scale(1);
@@ -53,10 +34,25 @@
         transform: scale(1);
     }
 }
-.zoom{
-    display: inline-block;
-    animation: zoom 1s ease-in-out infinite 5s;
+
+.seccion {
+    font-size: 20px;
+    color: #589f7e;
+    font-weight: bolder;
+    white-space: wrap;
+    overflow: hidden;
+    animation: seccion 10s linear infinite 0s;
 }
+
+@keyframes seccion {
+    from {
+        transform: translateX(-100% vh);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
 
 /*
 CARDS
