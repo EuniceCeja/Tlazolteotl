@@ -1,0 +1,17 @@
+.navbar {
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF7E0;
+  }
+.logo {
+    max-width: 200px;
+}
+.container-fluid a {
+    color: #CB3441;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-right: 100px;
+    margin: 15px;
+  }
+  
