@@ -1,27 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .navbar {
     background-color: #FFF7E0;
 }
 
+.collapse{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .logo {
     max-width: 150px;
-    margin-left: 20px;
 }
 
 .container-fluid a {
     color: #CB3441;
     font-size: 22px;
     font-weight: bolder;
-    padding-right: 100px;
     margin: 15px;
 }
 
 .zoom {
     color: #CB3441;
+    text-shadow: gray 1px 2px 4px;
     font-size: 25px;
     text-align: center;
+    padding: 0;
     font-weight: bold;
     display: inline-block;
-    animation: zoom 1s ease-in-out infinite 5s;
+    animation: zoom 4s ease-in-out infinite 5s;
 }
 @keyframes zoom {
     0% {
@@ -36,22 +47,38 @@
 }
 
 .seccion {
-    font-size: 20px;
+    font-size: 30px;
     color: #589f7e;
+    background-color: #FFF7E0;
+    text-shadow: black 2px 2px 3px;
+    height: 40px;
+    width: auto;
+    text-align: center;
     font-weight: bolder;
-    white-space: wrap;
+    letter-spacing: 4px;
     overflow: hidden;
+    margin: 0;
     animation: seccion 10s linear infinite 0s;
 }
 
-@keyframes seccion {
+form {
+    height: 60px;
+    margin-top: 10px;
+}
+.btn {
+    background-color: #589f7e !important;
+    color: aliceblue !important;
+    font-weight: bold !important;
+}
+
+/* @keyframes seccion {
     from {
         transform: translateX(-100% vh);
     }
     to {
         transform: translateX(100%);
     }
-}
+} */
 
 
 /*
@@ -118,3 +145,4 @@ CARDS
         bottom: 60px !important;
     }
 }
+
