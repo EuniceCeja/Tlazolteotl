@@ -5,6 +5,7 @@
 
 .navbar {
     background-color: #FFF7E0;
+    height: 9em;
 }
 
 .collapse{
@@ -14,20 +15,31 @@
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 6em;
 }
 
 .container-fluid a {
     color: #CB3441;
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: bolder;
-    margin: 15px;
+    margin: 1.5vw;
 }
-
+form::placeholder {
+    height: 10em;
+}
+.btn {
+    background-color: #589f7e !important;
+    color: aliceblue !important;
+    font-weight: bold !important;
+    width: 8em;
+    padding: 0;
+}
+/* Termina navbar */
 .zoom {
     color: #CB3441;
     text-shadow: gray 1px 2px 4px;
     font-size: 25px;
+    width: 50px;
     text-align: center;
     padding: 0;
     font-weight: bold;
@@ -61,15 +73,6 @@
     animation: seccion 10s linear infinite 0s;
 }
 
-form {
-    height: 60px;
-    margin-top: 10px;
-}
-.btn {
-    background-color: #589f7e !important;
-    color: aliceblue !important;
-    font-weight: bold !important;
-}
 
 /* @keyframes seccion {
     from {
@@ -86,13 +89,11 @@ CARDS
 */
 
 .card {
-    max-width: 400px;
-    margin: 20px;
     background-color: #FFF7E0 !important;
     border-radius: 20px !important;
     border-color: #FFF7E0 !important;
     overflow: hidden;
-    transition: tranform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 .card:hover {
     box-shadow: gray 0 5px 8px;
@@ -140,9 +141,21 @@ CARDS
     .card {
         max-width: 100%;
     }
-    
+    .card-title {
+        font-size: 18px;
+    }
+    .precio{
+        bottom: 20px;
+    }
     .card-text small.text-muted{
         bottom: 60px !important;
     }
 }
 
+footer {
+    background-color: #FFF7E0;
+}
+img {
+    max-width: 5em;
+    padding-bottom: 0;
+}
