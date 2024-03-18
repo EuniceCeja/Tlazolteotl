@@ -1,0 +1,10 @@
+.normal {
+    text-align: center;
+}
+.titulo {
+    color: #CB3441;
+    text-shadow: gray 1px 2px 4px;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: bold;
+}

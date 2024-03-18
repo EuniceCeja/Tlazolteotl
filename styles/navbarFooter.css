@@ -1,0 +1,68 @@
+nav {
+    background-color: #FFF7E0;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+.fa-solid {
+    color: #589f7e;
+    padding: .5em;
+}
+.collapse{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    max-width: 15vh;
+    margin: 10px;
+}
+
+nav .nav-link {
+    color: #CB3441;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 1.5vw;
+}
+form::placeholder {
+    height: 10em;
+}
+.btn {
+    background-color: #589f7e !important;
+    color: aliceblue !important;
+    font-weight: bold !important;
+    width: 8em;
+    padding: 0;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #FFF7E0;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .nav-pills .nav-item {
+    margin: 0 10px;
+}
+.footer .nav-pills .nav-item a {
+    color: #589f7e;
+}
+.fa {
+    font-size: 30px;
+} 
+footer h2 {
+    color: #CB3441;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer img {
+    max-width: 10vh;
+    margin: 10px;
+}
