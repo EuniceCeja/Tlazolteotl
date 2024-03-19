@@ -8,3 +8,15 @@
     display: inline-block;
     font-weight: bold;
 }
+
+/* CARD */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 10px;
+}
+.card-container .card{
+    border: none;
+}
